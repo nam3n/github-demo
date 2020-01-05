@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let hoang = {
+            name: 'Nam',
+            deptrai: true,
+            age: 26,
+            sing: function() {
+                document.write('Co phai bao nhieu lau nay em khong theo toi ve lang')
+            }
+        };
+        hoang.sing();
+        function printToN(n) {
+            for (let i = 1; i <= n; i++) {
+                document.write(i + "<br/>")
+            }
+        }
+        printToN(5);
+    </script>
+</body>
+</html>
